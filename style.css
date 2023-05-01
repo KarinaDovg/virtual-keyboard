@@ -1,0 +1,141 @@
+.common__body {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #d00a7d;
+}
+
+h2 {
+  text-align: center;
+}
+
+.class__input {
+  margin: 0 auto;
+}
+
+.main__element {
+  margin-top: 40px;
+}
+
+.class__keyboard {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+}
+
+.class__key-one,
+.class__key-two,
+.class__key-three,
+.class__key-four,
+.class__key-five {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 4px;
+}
+button {
+  color: #d00a7d;
+}
+
+.button__key-top,
+.button__key-bottom,
+.button__key-left,
+.button__key-right {
+  position: relative;
+}
+
+.button__key-top::before {
+  position: absolute;
+  content: '';
+  background: #d00a7d;
+  width: 5px;
+  height: 1px;
+  right: 2px;
+  transform: rotate(45deg);
+}
+
+.button__key-top::after {
+  position: absolute;
+  content: '';
+  background: #d00a7d;
+  width: 5px;
+  height: 1px;
+  right: 5px;
+  transform: rotate(-45deg);
+}
+
+.button__key-bottom::before {
+  position: absolute;
+  content: '';
+  background: #d00a7d;
+  width: 5px;
+  height: 1px;
+  left: 2px;
+  transform: rotate(45deg);
+}
+
+.button__key-bottom::after {
+  position: absolute;
+  content: '';
+  background: #d00a7d;
+  width: 5px;
+  height: 1px;
+  left: 5px;
+  transform: rotate(-45deg);
+}
+
+.button__key-left::before {
+  position: absolute;
+  content: '';
+  background: #d00a7d;
+  width: 5px;
+  height: 1px;
+  bottom: 7px;
+  left: 3px;
+  transform: rotate(45deg);
+}
+
+.button__key-left::after {
+  position: absolute;
+  content: '';
+  background: #d00a7d;
+  width: 5px;
+  height: 1px;
+  top: 6px;
+  left: 3px;
+  transform: rotate(-45deg);
+}
+
+.button__key-right::before {
+  position: absolute;
+  content: '';
+  background: #d00a7d;
+  width: 5px;
+  height: 1px;
+  bottom: 10px;
+  left: 4px;
+  transform: rotate(45deg);
+}
+
+.button__key-right::after {
+  position: absolute;
+  content: '';
+  background: #d00a7d;
+  width: 5px;
+  height: 1px;
+  top: 10px;
+  left: 4px;
+  transform: rotate(-45deg);
+}
+
+.button__key-space {
+  width: 130px;
+}
+
