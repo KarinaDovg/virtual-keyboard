@@ -13,6 +13,10 @@ h1 {
   color: #d00a7d;
 }
 
+h2 {
+  text-align: center;
+}
+
 .class__input {
   margin: 0 auto;
 }
@@ -56,6 +60,7 @@ button {
   right: 2px;
   transform: rotate(45deg);
 }
+
 .button__key-top::after {
   position: absolute;
   content: '';
@@ -75,6 +80,7 @@ button {
   left: 2px;
   transform: rotate(45deg);
 }
+
 .button__key-bottom::after {
   position: absolute;
   content: '';
@@ -95,6 +101,7 @@ button {
   left: 3px;
   transform: rotate(45deg);
 }
+
 .button__key-left::after {
   position: absolute;
   content: '';
@@ -116,6 +123,7 @@ button {
   left: 4px;
   transform: rotate(45deg);
 }
+
 .button__key-right::after {
   position: absolute;
   content: '';
